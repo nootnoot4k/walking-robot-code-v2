@@ -11,29 +11,16 @@
 
 #include <zephyr/zephyr.h>
 #include <zephyr/drivers/gpio.h>
+#include <uC_Servo.h>
 
 
-/*
 
-    CONSTANTS
-
-*/
-
-/*
-
-    FUNCTIONS
-
-*/
-
-
-/*
-
-    MAIN
-
-*/
-
-
-void main(void)
+uC_Servo::uC_Servo()
 {
+    printk("hey neat youre in the servo code on the microcontroller");
+}
 
+uC_Servo::~uC_Servo()
+{
+    printk("hey neat youre in the servo code on the microcontroller");
 }

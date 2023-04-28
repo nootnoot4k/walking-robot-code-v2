@@ -11,6 +11,7 @@
 
 #include <zephyr/zephyr.h>
 #include <zephyr/drivers/gpio.h>
+#include <uC_Servo.h>
 
 
 /*
